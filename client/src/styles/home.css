@@ -1,0 +1,92 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px;
+  color: #fff;
+}
+.container h1 {
+  text-align: center;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-lg {
+  font-size: 1.5rem;
+}
+.add-btn-lg {
+  background: #48bdff;
+  color: #1913ae;
+  width: 200px;
+  height: 70px;
+  padding: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.add-btn-lg:hover {
+  background: #fff;
+}
+.user-table {
+  width: 80%;
+}
+.user-row {
+  display: flex;
+  width: 100%;
+}
+.user-row-header {
+  background: #48bdff;
+  border: 1px solid #000;
+  padding: 1rem;
+  color: #1913ae;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+.user-row-item {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 1rem;
+  color: #1913ae;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-btn {
+  color: #1913ae;
+  background: #fff;
+  border: 1px solid #1913ae;
+  font-weight: bold;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.small-btn:hover {
+  background: #1913ae;
+  color: #fff;
+}
+.small-btn-green {
+  color: #267e34;
+  border: 1px solid #267e34;
+}
+.small-btn-green:hover {
+  background: #267e34;
+  color: #fff;
+}
+.small-btn-red {
+  color: red;
+  border: 1px solid red;
+}
+.small-btn-red:hover {
+  background: red;
+  color: #fff;
+}
